@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<script src="js/form03valida.js"></script>
+</head>
+<body>
+	<h1>Validación de datos</h1>
+	<form action="p00_validada.php" method="post" onsubmit="return fnValidar03();">
+
+		<h3> genero</h3>
+		<p> <input type="Radio" name="radEstado" id="radEstado" value="S">masculino </p>
+		<p> <input type="Radio" name="radEstado" id="radEstado" value="C">femenino </p>
+
+
+		<h3> Estado civil</h3>
+		<p> <input type="Radio" name="radEstado" id="radEstado" value="S">Soltero(a) </p>
+		<p> <input type="Radio" name="radEstado" id="radEstado" value="C">Casado(a) </p>
+		<p> <input type="Radio" name="radEstado" id="radEstado" value="D">Divorciado(a) </p>
+	
+
+		<h3> ocupacion</h3>
+		<p> <input type="Checkbox" name="chkPrefer" id="chkPrefer" value="M">estudias</p>
+		<p> <input type="Checkbox" name="chkPrefer" id="chkPrefer" value="P">trabajas</p>
+		<p> <input type="Checkbox" name="chkPrefer" id="chkPrefer" value="D">ninguna</p>
+		
+
+		
+
+		<p> <input type="submit" name="btnVer" value="Pasar"></p>
+
+	</form>
+	
+</body>
+</html>
